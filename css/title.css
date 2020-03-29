@@ -1,0 +1,27 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.title__column{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title__column__name{
+    margin-left: 10px;
+    font-size: 15px;
+    opacity: 0.4;
+   
+}
+.name-title{
+    font-size: 28px;
+    font-weight: 700;
+    margin:60px 0px;
+    opacity: 0.8;
+}
+.name-title__1{
+    margin-bottom: 5px;
+}

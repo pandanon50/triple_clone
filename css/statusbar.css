@@ -1,0 +1,12 @@
+.statusbar{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 13px;
+    
+}
+
+.statusbar__column .status__time{
+    font-weight: 700;
+}

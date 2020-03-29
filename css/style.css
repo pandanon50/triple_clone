@@ -1,0 +1,14 @@
+@import "reset.css";
+@import "statusbar.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
+@import "title.css";
+@import "mainsearch.css";
+@import "nav.css";
+
+body {
+    background-color: white;
+    padding: 10px 30px;
+    color: #1D1D1D;
+    font-family: 'Open Sans';
+    
+}
