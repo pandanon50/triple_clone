@@ -1,0 +1,135 @@
+.setting__title{
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 25px;
+    justify-content: space-between;
+    
+}
+.settings__icons{
+    display: flex;
+}
+
+.settings__icon:nth-child(1){
+    margin-right: 20px;
+    position: relative;
+}
+
+.settings__icons .icon__bg{
+    background-color: red;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 70px;
+    top: 35px;
+    border-radius: 50%;
+}
+
+
+.myself{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.myself__column .myself__title{
+    font-size: 21px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.myself-list{
+    display: flex;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.myself__column__bg{
+    font-size: 50px;
+}
+.con__count{
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #2D92E6;
+}
+
+.con__title{
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.settings__center{
+    border-top: 1px solid #F5F5F5;
+    border-bottom: 10px solid #F8F8F8
+}
+
+.centers__column{
+    display: flex;
+    justify-content: space-between;
+    padding:35px 0px;
+    border-bottom: 1px solid #F5F5F5;
+    font-size: 17px;
+
+}
+.centers__column .centers__column__title{
+    border-top: 1px solid #F5F5F5;
+}
+.centers__column .center__column__icon{
+    display: flex;
+}
+.center__column__icon i{
+margin-left: 8px;
+}
+.icon__point{
+    font-weight: 700;
+    opacity: 0.5;
+}
+.icon__cupon{
+    font-weight: 700;
+    color: #2D92E6;
+    margin-right: 7px;
+}
+.center__column__title{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.settings__nav{
+    margin-top: 20px;
+}
+.settings__list{
+    display: flex;
+    justify-content: space-between;
+}
+.setlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.setlist .setlist__icon{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.setlist:nth-child(1){
+    position: relative;
+}
+.setlist .icon__bg{
+    background-color: red;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+.setlist .setlist__name{
+    font-size: 13px;
+    opacity: 0.5;
+    font-weight: 700;
+    white-space: normal;
+}
+
+

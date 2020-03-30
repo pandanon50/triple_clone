@@ -4,6 +4,8 @@
 @import "title.css";
 @import "mainsearch.css";
 @import "nav.css";
+@import "search.css";
+@import "setting.css";
 
 body {
     background-color: white;
@@ -11,4 +13,8 @@ body {
     color: #1D1D1D;
     font-family: 'Open Sans';
     
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
